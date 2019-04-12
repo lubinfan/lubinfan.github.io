@@ -1,0 +1,771 @@
+
+[
+{   
+    "title": "A Probabilistic Model for Exteriors of Residential Buildings",
+    "authors": [
+      {
+          "fullName": "Lubin Fan",
+          "url": "https://sites.google.com/site/lubinfan/home",
+          "afflID": [0]
+      },
+      {
+          "fullName": "Peter Wonka",
+          "url": "http://peterwonka.net/",
+          "afflID": [0]
+      }
+     
+    ],
+    "affiliations": [
+        {
+            "name": "King Abdullah University of Science and Technology",
+            "url": "http://www.kaust.edu.sa/index.html"
+        }
+    ],
+    "event": "ACM Transactions on Graphics 2016",
+    "abstract":"We propose a new framework to model the exterior of residential buildings. The main goal of our work is to design a model that can be learned from data that is observable from the outside of a building and that can be trained with widely available data such as aerial images and street view images. First, we propose a parametric model to describe the exterior of a building (with a varying number of parameters) and propose a set of attributes as a building representation with fixed dimensionality. Second, we propose a hierarchical graphical model with hidden variables to encode the relationships between building attributes and learn both the structure and parameters of the model from the database. Third, we propose optimization algorithms to generate three-dimensional models based on building attributes sampled from the graphical model. Finally, we demonstrate our framework by synthesizing new building models and completing partially observed building models from photographs. ",
+    "contents": [{
+      "name": "",
+      "images": [{
+        "uri": "img/2016-tog-bldg model-teaser.png",
+        "caption": " An application of our building model. Starting from a single image (Input), a user can specify parts of a building mass model and mark shapes (windows and doors) on the observed part of a building facade in a rectified image (Element Selection). Our framework can complete the missing parts of the building (mass model and facades). A 3D rendering of the completed building is shown on the bottom."
+      }]
+    },
+    {
+      "name": "Overview",
+      "images": [{
+        "uri": "img/2016-tog-bldg model-overview.png",
+        "caption": "Overview of our framework."
+      }]
+    },
+    {
+      "name": "Results",
+      "images": [{
+          "uri": "img/2016-tog-bldg model-synthesis.png",
+          "caption": "Six buildings synthesized using our algorithm."
+        },
+        {
+          "uri": "img/2016-tog-bldg model-completion.png",
+          "caption": "Given an incomplete building model, our algorithm can generate multiple completions. Top row: photograph of the building, and two views of the incomplete building. Middle and bottom rows show three possible completions. For each completion, the front and back of the building are shown."
+        }
+      ]
+    }
+  ],
+    "videos": [{
+    "uri": "http://vali.cp31.ott.cibntv.net/697554E0D83377163E1422E5F/03001101005C84DE68F66C931566009F775061-B6ED-4A89-A7BC-71E6103A1C33.mp4?ccode=050F&duration=180&expire=18000&psid=a99e3776454dd887e415d09cb99832ee&ups_client_netip=2d4f6348&ups_ts=1554863088&ups_userid=&utid=9iKrFFY7mWACAXLX%2BiTRtlSA&vid=XNDA5MjM2MjIyOA%3D%3D&vkey=Ae7a1862e30a5c1029994c6a09bfdde35&sp=",
+    "caption": ""
+    }
+     ],
+    "acknowlegement":"We would like to acknowledge the help of Yoshihiro Kobayashi and Christopher Grasso for rendering most of the images in this paper, the help of Tina Smith for video narration, and the help of Virginia Unkefer for proofreading. This publication is based upon work supported by the Office of Sponsored Research (OSR) under Award No. OCRF-2014-CRG3-62140401 and the KAUST Visual Computing Center",
+    "bibtex": {
+    "type": "@article",
+    "name": "Fan:2016:BldgExteriorsModel",
+    "title": "A Probabilistic Model for Exteriors of Residential Buildings",
+    "author": "Lubin Fan and Peter Wonka",
+    "journel": "ACM Transactions on Graphics",
+    "volume": "35",
+    "number": "5",
+    "pages": "155:1--155:13",
+    "year": "2016"
+  },
+    "materials": [
+       {
+            "iconUri": "img/icon_pdf_64.png",
+            "matUri": "https://www.dropbox.com/s/weqa48qfyaouc76/2016-bldg%20model.pdf?dl=0",
+            "caption": "Paper (2.18MB)"
+        },
+        {
+            "iconUri": "img/icon_pdf_64.png",
+            "matUri": "https://www.dropbox.com/s/sp0x8ifvmmo1vjs/2016-bldg%20model-add.pdf?dl=0",
+            "caption": "Additional Materials (1.71MB)"
+        },
+        {
+            "iconUri": "img/icon_zip_64.png",
+            "matUri": "https://www.dropbox.com/s/mulhlx4opfca1yq/2016-bldg%20model-data.zip?dl=0",
+            "caption": "Dataset (188MB)"
+        },
+        {
+            "iconUri": "img/icon_video_64.png",
+            "matUri": "https://www.dropbox.com/s/9kvhdjjonlao61q/2016-bldg%20model-video_lrs.mp4?dl=0",
+            "caption": "Video  (39.5MB)"
+        },
+        {
+            "iconUri": "img/icon_ppt_64.png",
+            "matUri": "https://www.dropbox.com/s/hfdb2rqaikqqnp2/2016-bldg%20model-slides.pdf?dl=0",
+            "caption": "Slides (5.58MB)"
+        }
+    ]
+    
+},{   
+    "title": "Structure Completion for Facade Layouts",
+    "authors": [
+      {
+          "fullName": "Lubin Fan",
+          "url": "https://sites.google.com/site/lubinfan/home",
+          "afflID": [0,1]
+      },
+      {
+          "fullName": "Przemyslaw Musialski",
+          "url": "http://www.cg.tuwien.ac.at/~pm/",
+          "afflID": [2]
+      },
+      {
+          "fullName": "Ligang Liu",
+          "url": "/",
+          "afflID": [3]
+      },
+      {
+          "fullName": "Peter Wonka",
+          "url": "http://peterwonka.net/",
+          "afflID": [0,4]
+      }
+     
+    ],
+    "affiliations": [
+        {
+            "name": "King Abdullah University of Science and Technology",
+            "url": "http://www.kaust.edu.sa/index.html"
+        },
+        {
+            "name": "Zhejiang University",
+            "url": "http://www.zju.edu.cn/english/"
+        },
+        {
+            "name": "Vienna University of Technology",
+            "url": "http://www.tuwien.ac.at/"
+        },
+        {
+            "name": "University of Science and Technology of China",
+            "url": "http://en.ustc.edu.cn/"
+        },
+        {
+            "name": "Arizona State University",
+            "url": "http://en.ustc.edu.cn/"
+        }
+        
+    ],
+    "event": "ACM Transactions on Graphics (Proc. of SIGGRAPH Asia), 2014",
+    "abstract":"We present a method to complete missing structures in facade layouts.Starting from an abstraction of the partially observed layout as a set of shapes, we can propose one or multiple possible completed layouts. Structure completion with large missing parts is an ill-posed problem. Therefore, we combine two sources of information to derive our solution: the observed shapes and a database of complete layouts. The problem is also very difficult, because shape positions and attributes have to be estimated jointly. Our proposed solution is to break the problem into two components: a statistical model to evaluate layouts and a planning algorithm to generate candidate layouts. This ensures that the completed result is consistent with the observation and the layouts in the database.",
+    "contents": [{
+      "name": "",
+      "images": [{
+        "uri": "img/2014-sga-facade completion-teaser.png",
+        "caption": "Starting from a single image (Input) a user can specify a building mass model and mark shapes (windows, doors, ornaments) on the observed part of a building facade in a rectified image (Element Selection). Our structure completion framework can complete the missing part of the layout (Structure Completion). A 2D and a 3D rendering of the completed models is shown on the right."
+      }]
+    },  
+    {
+      "name": "Results",
+      "images": [{
+          "uri": "img/2014-sga-facade completion-strasbourg.png",
+          "caption": "Completion of a series of buildings along a street occluded by trees."
+        },
+        {
+          "uri": "img/2014-sga-facade completion-3d gallery.png",
+          "caption": "Several 3D models created using completion results."
+        }
+      ]
+    }
+  ],
+    "videos": [{
+    "uri": "http://vali.cp31.ott.cibntv.net/697554E0D83377163E1422E5F/03001101005C84DE68F66C931566009F775061-B6ED-4A89-A7BC-71E6103A1C33.mp4?ccode=050F&duration=180&expire=18000&psid=a99e3776454dd887e415d09cb99832ee&ups_client_netip=2d4f6348&ups_ts=1554863088&ups_userid=&utid=9iKrFFY7mWACAXLX%2BiTRtlSA&vid=XNDA5MjM2MjIyOA%3D%3D&vkey=Ae7a1862e30a5c1029994c6a09bfdde35&sp=",
+    "caption": ""
+    }
+     ],
+    "acknowlegement":"We would like to thank all the reviewers for their constructive comments. This research was partially funded by the Visual Computing Center of King Abdullah University of Science and Technology (KAUST), the National Natural Science Foundation of China (No. 61222206), the One Hundred Talent Project of the Chinese Academy of Sciences, the U.S. National Science Foundation (CCF 0643822), and the Austrian Science Funds (FWF P24600-N23).",
+    "bibtex": {
+    "type": "@article",
+    "name": "Fan:2014:FacadeCompletion",
+    "title": "Structure Completion for Facade Layouts",
+    "author": "Lubin Fan and Przemyslaw Musialski and Ligang Liu and Peter Wonka",
+    "journel": "ACM Trans. Graph. (Proc. of SIGGRAPH Asia 2014",
+    "volume": "33",
+    "number": "6",
+    "pages": "210:1--210:1",
+    "year": "2014"
+  },
+    "materials": [
+       {
+            "iconUri": "img/icon_pdf_64.png",
+            "matUri": "https://www.dropbox.com/s/amw1dxphvvr8lli/2014-facade%20completion-highres.pdf?dl=0",
+            "caption": "Paper (61.9MB)"
+        },
+        {
+            "iconUri": "img/icon_pdf_64.png",
+            "matUri": "https://www.dropbox.com/s/sbkkcbs8m470x5b/2014-facade%20completion-lowres.pdf?dl=0",
+            "caption": "Paper (5.4MB)"
+        },
+          {
+            "iconUri": "img/icon_pdf_64.png",
+            "matUri": "https://www.dropbox.com/s/y62obpz44pj8iz3/2014-facade%20completion-add.pdf?dl=0",
+            "caption": "Additional Materials (5.8MB)"
+        },
+        {
+            "iconUri": "img/icon_zip_64.png",
+            "matUri": "https://www.dropbox.com/s/8j3dar9g2rkb0hi/2014-facade%20completion-data.zip?dl=0",
+            "caption": "Dataset (173.0MB)"
+        },
+        {
+            "iconUri": "img/icon_video_64.png",
+            "matUri": "https://www.dropbox.com/s/ey9hn6cxwb51fpb/2014-facade%20completion-video1.mp4?dl=0",
+            "caption": "Video 1 (66.7MB)"
+        },
+        {
+            "iconUri": "img/icon_video_64.png",
+            "matUri": "https://www.dropbox.com/s/vfimib9gb2x67aj/2014-facade%20completion-video2.mp4?dl=0",
+            "caption": "Video 2 (58.3MB)"
+        },
+        {
+            "iconUri": "img/icon_ppt_64.png",
+            "matUri": "https://www.dropbox.com/s/36wzq699v9rew5i/2014-facade%20completion.pptx?dl=0",
+            "caption": "Slides (102MB)"
+        }
+    ]
+    
+},
+
+{   
+    "title": "Modeling by Drawing with Shadow Guidance",
+    "authors": [
+      {
+          "fullName": "Lubin Fan",
+          "url": "https://sites.google.com/site/lubinfan/home",
+          "afflID": [0]
+      },
+      {
+          "fullName": "Ruiming Wang",
+          "url": " ",
+          "afflID": [1]
+      },
+      {
+          "fullName": "Linlin Xu",
+          "url": " ",
+          "afflID": [1]
+      },
+      {
+          "fullName": "Jiansong Deng",
+          "url": "http://staff.ustc.edu.cn/~dengjs/",
+          "afflID": [1]
+      },
+      {
+          "fullName": "Ligang Liu",
+          "url": "http://staff.ustc.edu.cn/~lgliu/",
+          "afflID": [1]
+      }
+    ],
+    "affiliations": [
+        {
+            "name": "Zhejiang University",
+            "url": "http://www.zju.edu.cn/"
+        },
+        {
+            "name": "University of Science and Technology of China",
+            "url": "http://en.ustc.edu.cn/"
+        }
+    ],
+    "event": "Computer Graphics Forum (Proc. of Pacific Graphics), 2013",
+    "abstract":"Modeling 3D objects is difficult, especially for the user who lacks the knowledge on 3D geometry or even on 2D sketching. In this paper, we present a novel sketch-based modeling system which allows novice users to create 3D custom models by assembling parts based on a database of pre-segmented 3D models. Different from previous systems, our system supports the user with visualized and meaningful shadow guidance under his strokes dynamically to guide the user to convey his design concept easily and quickly. Our system interprets the user’s strokes as similarity queries into database to generate the shadow image for guiding the user’s further drawing and returns the 3D candidate parts for modeling simultaneously. Moreover, our system preserves the high-level structure in generated models based on prior knowledge pre-analyzed from the database, and allows the user to create custom parts with geometric variations. We demonstrate the applicability and effectiveness of our modeling system with human subjects and present various models designed using our system. ",
+    "contents": [{
+      "name": "",
+      "images": [{
+        "uri": "img/2013-pg-modeling by drawing-teaser.png",
+        "caption": "An example of creating a chair model using our system. The user successively draws freeform strokes (red) to express his design concept on the screen. Our system automatically returns the corresponding 3D parts and dynamically provides shadow guidance to the user for further drawing. (a)-(e) shows strokes specified by the user, shadow provided by our system (the upper row) and the corresponding 3D models generated in our system (the lower row). The user can also edit the part by drawing near the silhouette of the model (e). (f) shows the final model generated by our system."
+      }]
+    },
+    {
+      "name": "System Pipeline",
+      "images": [{
+        "uri": "img/2013-pg-modeling by drawing-pipeline.png",
+        "caption": "System pipeline. The user can construct a 3D model in a part-by-part fashion. As the user draws on the canvas, our system interprets user's strokes as similarity queries into database to compose the shadow image and return the corresponding candidate 3D parts. Then the system assembles the selected part by taking user's strokes and prior knowledge as hints. The user can draw strokes near the added parts to make variations."
+      }]
+    },
+    {
+      "name": "Results",
+      "images": [{
+          "uri": "img/2013-pg-modeling by drawing-pipeline.png",
+          "caption": "Six buildings synthesized using our algorithm."
+        },
+        {
+          "uri": "img/2013-pg-modeling by drawing-gallery.png",
+          "caption": "Given an incomplete building model ..."
+        }
+      ]
+    }
+  ],
+    "videos": [{
+    "uri": "http://vali.cp31.ott.cibntv.net/697554E0D83377163E1422E5F/03001101005C84DE68F66C931566009F775061-B6ED-4A89-A7BC-71E6103A1C33.mp4?ccode=050F&duration=180&expire=18000&psid=a99e3776454dd887e415d09cb99832ee&ups_client_netip=2d4f6348&ups_ts=1554863088&ups_userid=&utid=9iKrFFY7mWACAXLX%2BiTRtlSA&vid=XNDA5MjM2MjIyOA%3D%3D&vkey=Ae7a1862e30a5c1029994c6a09bfdde35&sp=",
+    "caption": ""
+    },
+    {
+    "uri": "http://ykugc.cp31.ott.cibntv.net/65727E34F4C38716A787B65F3/03001101005CAC538B78A535CC2EFAD95D853A-CE4D-4A27-9F7B-DB87C96CEDDF.mp4?ccode=050F&duration=184&expire=18000&psid=1b5e7e05d435d10ca4454c4a8c432141&ups_client_netip=72d7fa63&ups_ts=1554864571&ups_userid=&utid=9iKrFFY7mWACAXLX%2BiTRtlSA&vid=XNDEzMDk2NjE5Mg%3D%3D&vkey=A202bbe0ec3a43077be797f3c3b34bd2e&sp=",
+    "caption": ""
+     }
+     ],
+    "acknowlegement":"We would like to thank all the reviewers for their constructive comments. This work is supported by the National Natural Science Foundation of China (61222206, 61073108, 11031007) and the One Hundred Talent Project of the Chinese Academy of Sciences.",
+    "bibtex": {
+    "type": "article",
+    "name": "Fan:2016:BldgExteriorsModel",
+    "title": "A Probabilistic Model for Exteriors of Residential Buildings",
+    "author": "Lubin Fan and Peter Wonka",
+    "journel": "ACM Transactions on Graphics",
+    "volume": "35",
+    "number": "5",
+    "pages": "155:1--155:13",
+    "year": "2016"
+  },
+    "materials": [
+        {
+            "iconUri": "img/icon_pdf_64.png",
+            "matUri": "https://www.dropbox.com/s/j4oowcu2b4kvrne/2013-pg-modeling%20by%20drawing.pdf?dl=0",
+            "caption": "Paper (5.0MB)"
+        },
+        {
+            "iconUri": "img/icon_zip_64.png",
+            "matUri": "https://www.dropbox.com/s/oupl7py06yqnyc5/2013-pg-modeling%20by%20drawing-supp.zip?dl=0",
+            "caption": "Supplementary Materials (11.0MB)"
+        },
+        {
+            "iconUri": "img/icon_video_64.png",
+            "matUri": "https://www.dropbox.com/s/zz6ax2k00outbni/2013-pg-modeling%20by%20drawing.mov?dl=0",
+            "caption": "Video (29.8MB)"
+        },
+        {
+            "iconUri": "img/icon_ppt_64.png",
+            "matUri": "https://www.dropbox.com/s/panu36og6fr7l5u/2013-pg-modeling%20by%20drawing.pptx?dl=0",
+            "caption": "Slides (51.2MB)"
+        }
+    ]
+    
+},
+
+{   
+    "title": "Co-Segmentation of 3D Shapes via Subspace Clustering",
+    "authors": [
+      {
+          "fullName": "Ruizhen Hu",
+          "url": "http://www.math.zju.edu.cn/ruizhenhu/default.htm",
+          "afflID": [0]
+      },
+      {
+          "fullName": "Lubin Fan",
+          "url": "https://sites.google.com/site/lubinfan/home",
+          "afflID": [0]
+      },
+      {
+          "fullName": "Ligang Liu",
+          "url": "http://staff.ustc.edu.cn/~lgliu/",
+          "afflID": [0]
+      }
+    ],
+    "affiliations": [
+        {
+            "name": "Zhejiang University",
+            "url": "http://www.zju.edu.cn/english/"
+        }
+        
+    ],
+    "event": "Computer Graphics Forum (Proc. of Eurographics Symposium on Geometry Processing), 2012",
+    "abstract":"We present a novel algorithm for automatically co-segmenting a set of shapes from a common family into consistent parts. Starting from over-segmentations of shapes, our approach generates the segmentations by grouping the primitive patches of the shapes directly and obtains their correspondences simultaneously. The core of the algorithm is to compute an affinity matrix where each entry encodes the similarity between two patches, which is measured based on the geometric features of patches. Instead of concatenating the different features into one feature descriptor, we formulate co-segmentation into a subspace clustering problem in multiple feature spaces. Specifically, to fuse multiple features, we propose a new formulation of optimization with a consistent penalty, which facilitates both the identification of most similar patches and selection of master features for two similar patches. Therefore the affinity matrices for various features are sparsity-consistent and the similarity between a pair of patches may be determined by part of (instead of all) features. Experimental results have shown how our algorithm jointly extracts consistent parts across the collection in a good manner.",
+    "contents": [{
+      "name": "",
+      "images": [{
+        "uri": "img/2012-sgp-coseg-teaser.png",
+        "caption": "The co-segmentation result of the Candelabra set by our algorithm. Starting from the over-segmented patches of the shapes (left), our algorithm automatically obtains the consistent segmentations among these objects by grouping the patches using subspace clustering in multiple feature spaces. Corresponding parts are shown in the same colors (right)."
+      }]
+    }, 
+    {
+      "name": "Results",
+      "images": [{
+          "uri": "img/2012-sgp-coseg-results.png",
+          "caption": " Co-segmentation results on all the models of 20 categories produced by our algorithm. 16 categories are from the PSB dataset [CGF09] (the first 4 rows) and 4 categories are from the dataset used in [SvKK 11] (the last row)."
+        }
+      ]
+    }
+  ],
+    "videos": [{
+    "uri": "http://vali.cp31.ott.cibntv.net/697554E0D83377163E1422E5F/03001101005C84DE68F66C931566009F775061-B6ED-4A89-A7BC-71E6103A1C33.mp4?ccode=050F&duration=180&expire=18000&psid=a99e3776454dd887e415d09cb99832ee&ups_client_netip=2d4f6348&ups_ts=1554863088&ups_userid=&utid=9iKrFFY7mWACAXLX%2BiTRtlSA&vid=XNDA5MjM2MjIyOA%3D%3D&vkey=Ae7a1862e30a5c1029994c6a09bfdde35&sp=",
+    "caption": ""
+    },
+    {
+    "uri": "http://ykugc.cp31.ott.cibntv.net/65727E34F4C38716A787B65F3/03001101005CAC538B78A535CC2EFAD95D853A-CE4D-4A27-9F7B-DB87C96CEDDF.mp4?ccode=050F&duration=184&expire=18000&psid=1b5e7e05d435d10ca4454c4a8c432141&ups_client_netip=72d7fa63&ups_ts=1554864571&ups_userid=&utid=9iKrFFY7mWACAXLX%2BiTRtlSA&vid=XNDEzMDk2NjE5Mg%3D%3D&vkey=A202bbe0ec3a43077be797f3c3b34bd2e&sp=",
+    "caption": ""
+     }
+     ],
+    "acknowlegement":"We would like to thank all the reviewers for their constructive comments. We thank Oliver van Kaick and Richard Zhang for their results and dataset of [SvKK*11], Evangelos Kalogerakis and Aaron Hertzmann for their results and dataset of [KHS10], Huang Qixing for his code of oversegmentation, Shusen Wang for his code of SSQP, and Juan Sagredo for video narration. This work is supported by the National Natural Science Foundation of China (61070071) and the 973 National Key Basic Research Foundation of China (2009CB320801).",
+    "bibtex": {
+    "type": "@article",
+    "name": "Hu:2012:CoSegmentation",
+    "title": "Co-Segmentation of 3D Shapes via Subspace Clustering",
+    "author": "Ruizhen Hu and Lubin Fan and Ligang Liu",
+    "journel": "Computer Graphics Forum (Proc. of SGP 2012)",
+    "volume": "31",
+    "number": "5",
+    "pages": "1703-1713",
+    "year": "2012"
+  },
+    "materials": [
+        {
+            "iconUri": "img/icon_pdf_64.png",
+            "matUri": "https://www.dropbox.com/s/lwo79232sls71et/2012-sgp-coseg.pdf?dl=0",
+            "caption": "Paper (1.3MB)"
+        },{
+            "iconUri": "img/icon_pdf_64.png",
+            "matUri": "https://www.dropbox.com/s/ftzjmwor33qopnb/2012-sgp-coseg-supp.pdf?dl=0",
+            "caption": "Supplementary Material (0.2MB)"
+        },
+        
+        {
+            "iconUri": "img/icon_video_64.png",
+            "matUri": "https://www.dropbox.com/s/wqx0wnic28k308x/2012-sgp-coseg.mov?dl=0",
+            "caption": "Video (46.6MB)"
+        },
+        {
+            "iconUri": "img/icon_ppt_64.png",
+            "matUri": "https://www.dropbox.com/s/pnnvssz01b62n6p/2012-sgp-coseg.pptx?dl=0",
+            "caption": "Slides (9.4MB)"
+        }
+    ]
+    
+},
+
+{   
+    "title": "Sketch-based Mesh Cutting: A Comparative Study",
+    "authors": [
+      {
+          "fullName": "Lubin Fan",
+          "url": "https://sites.google.com/site/lubinfan/home",
+          "afflID": [0]
+      },
+      {
+          "fullName": "Min Meng",
+          "url": "/",
+          "afflID": [0]
+      },
+      {
+          "fullName": "Ligang Liu",
+          "url": "http://staff.ustc.edu.cn/~lgliu/",
+          "afflID": [0]
+      }
+    ],
+    "affiliations": [
+        {
+            "name": "Zhejiang University",
+            "url": "http://www.zju.edu.cn/english/"
+        }
+        
+    ],
+    "event": "Grphical Models, 74(6): 292-301, 2012",
+    "abstract":"In this paper we present the first comprehensive study and analysis on different sketch-based mesh cutting approaches. To compare a representative number of state-of-the-art sketch-based mesh cutting methods, we conduct a large scale user study which was carried out via extensive user experiments. To address the objective assessment of the performances of different algorithms, a complete framework with various intuitive sketching interfaces was developed to enable interactive mesh cutting by simply drawing sketches on mesh surface. To address the subjective assessment of user's experience, we presented the analysis of the user’s responses, where the analytic hierarchy process was employed to quantify the performance of algorithms in terms of multiple criteria. Our results suggest that human in general agree on the evaluation of the performance of algorithms, and some sketch-based mesh cutting methods are consistently more favorable than others. The importance of our work lies in studying users’ experience on operating various sketch-based mesh cutting tools, to motivate more practical interactive systems in the future.",
+    "contents": [{
+      "name": "",
+      "images": [{
+        "uri": "img/2012-gm-seg evaluation-teaser.png",
+        "caption": " Different user interfaces of various sketch-based mesh cutting algorithms: (a) foreground/background sketch-based interface; (b) foreground sketch-based interface; (c) cross-boundary sketch-based interface; (d) along-boundary sketch-based interface. See detail about these tools in the of Sketch-based Interactive Mesh Cutting. We present a comprehensively comparative study on evaluating the performances of these algorithms and the user experiences of these user interfaces."
+      }]
+    }, 
+    {
+      "name": "Results",
+      "images": [{
+          "uri": "img/2012-gm-seg evaluation-ui.png",
+          "caption": "Screenshot of our evaluation system: (a) the evaluation system for different sketch-based mesh cutting algorithms; (b) the task panel for evaluation."
+        }
+      ]
+    }
+  ],
+    "videos": [{
+    "uri": "http://vali.cp31.ott.cibntv.net/697554E0D83377163E1422E5F/03001101005C84DE68F66C931566009F775061-B6ED-4A89-A7BC-71E6103A1C33.mp4?ccode=050F&duration=180&expire=18000&psid=a99e3776454dd887e415d09cb99832ee&ups_client_netip=2d4f6348&ups_ts=1554863088&ups_userid=&utid=9iKrFFY7mWACAXLX%2BiTRtlSA&vid=XNDA5MjM2MjIyOA%3D%3D&vkey=Ae7a1862e30a5c1029994c6a09bfdde35&sp=",
+    "caption": ""
+    }
+    
+     ],
+    "acknowlegement":"This work is supported by the National Natural Science Foundation of China (61070071) and the 973 National Key Basic Research Foundation of China (2009CB320801).",
+    "bibtex": {
+    "type": "@article",
+    "name": "Fan:2012:SegEvaluatio",
+    "title": "Lubin Fan and Min Meng and Ligang Liu",
+    "author": "Lubin Fan and Min Meng and Ligang Liu",
+    "journel": "Graphical Models",
+    "volume": "74",
+    "number": "6",
+    "pages": "292-301",
+    "year": "2012"
+  },
+    "materials": [
+        {
+            "iconUri": "img/icon_pdf_64.png",
+            "matUri": "https://www.dropbox.com/s/zn4aaqjqo04dxwm/2012-gm-seg%20evaluation.pdf?dl=0",
+            "caption": "Paper (1MB)"
+        },{
+            "iconUri": "img/icon_pdf_64.png",
+            "matUri": "https://www.dropbox.com/s/kkloo7aiz0kauyc/2012-gm-seg%20evaluation-supp.pdf?dl=0",
+            "caption": "Supplementary Materials (1MB)"
+        },
+        
+        {
+            "iconUri": "img/icon_zip_64.png",
+            "matUri": "https://www.dropbox.com/s/9jv7rqi7z2tkkyo/2012-gm-seg%20evaluation-dataset.zip?dl=0",
+            "caption": "Dataset (60.3MB)"
+        },
+        {
+            "iconUri": "img/icon_video_64.png",
+            "matUri": "https://www.dropbox.com/s/wi3myp775w9rvi0/2012-gm-seg%20evaluation.mov?dl=0",
+            "caption": "Video (4.2MB)"
+        }
+    ]
+    
+},
+{   
+    "title": "iCutter: A Direct Cut-out Tool for 3D Shapes",
+    "authors": [
+    {
+          "fullName": "Min Meng",
+          "url": "/",
+          "afflID": [0]
+     },
+      {
+          "fullName": "Lubin Fan",
+          "url": "https://sites.google.com/site/lubinfan/home",
+          "afflID": [0]
+      },     
+      {
+          "fullName": "Ligang Liu",
+          "url": "http://staff.ustc.edu.cn/~lgliu/",
+          "afflID": [0]
+      }
+    ],
+    "affiliations": [
+        {
+            "name": "Zhejiang University",
+            "url": "http://www.zju.edu.cn/english/"
+        }
+        
+    ],
+    "event": "Journal of Computer Animation and Virtual Worlds,  22(4), 335-342, 2011",
+    "abstract":"We present a novel sketch-based tool, called iCutter (short for Intelligent Cutter), for cutting out semantic parts of 3D shapes. When a user performs a cutting task, he only needs to draw a freehand stroke to roughly specify where cuts should be made without much attention. Then iCutter intelligently returns the best cut that meets the user’s intention and expectation. We develop a novel scheme for selecting the optimal isoline from a well-designed scalar field induced from the input stroke, which respects the part saliency as well as the input stroke. We demonstrate various examples to illustrate the flexibility and applicability of our iCutter tool.",
+    "contents": [{
+      "name": "",
+      "images": [{
+        "uri": "img/2011-case-icutter-teaser.png",
+        "caption": "Two mesh cutting results produced by our iCutter tool. The user only needs to roughly draw a stroke (in purple) around the desired cutting boundary. iCutter obtains the similar cuts no matter how the user draws the strokes in different way."
+      }]
+    }, 
+    {
+      "name": "Results",
+      "images": [{
+          "uri": "img/2011-case-icutter-armodillo.png",
+          "caption": "iCutter is robust to users’ inputs, noise on the object (middle), and object poses (right)."
+       },
+       {
+          "uri": "img/2011-case-icutter-multiple.png",
+          "caption": "iCutter can cut out the different parts with complex features on the Neptune model."
+        }
+      ]
+    }
+  ],
+    "videos": [{
+    "uri": "http://vali.cp31.ott.cibntv.net/697554E0D83377163E1422E5F/03001101005C84DE68F66C931566009F775061-B6ED-4A89-A7BC-71E6103A1C33.mp4?ccode=050F&duration=180&expire=18000&psid=a99e3776454dd887e415d09cb99832ee&ups_client_netip=2d4f6348&ups_ts=1554863088&ups_userid=&utid=9iKrFFY7mWACAXLX%2BiTRtlSA&vid=XNDA5MjM2MjIyOA%3D%3D&vkey=Ae7a1862e30a5c1029994c6a09bfdde35&sp=",
+    "caption": ""
+    }
+    
+     ],
+    "acknowlegement":"This work is supported by the National Natural Science Foundation of China (61070071), the 973 National Key Basic Research Foundation of China (2009CB320801), and the Fundamental Research Funds for the Central Universities (2010QNA3039).",
+    "bibtex": {
+    "type": "@article",
+    "name": "Meng:2011:iCutter",
+    "title": "iCutter: A Direct Cut-out Tool for 3D Shapes",
+    "author": "Min Meng and Lubin Fan and Ligang Liu",
+    "journel": "Journal of Computer Animation and Virtual Worlds",
+    "volume": "22",
+    "number": "4",
+    "pages": "335-342",
+    "year": "2011"
+  },
+    "materials": [
+        {
+            "iconUri": "img/icon_pdf_64.png",
+            "matUri": "https://www.dropbox.com/s/bg8x87n6w5zizci/2011-casa-icutter.pdf?dl=0",
+            "caption": "Paper"
+        },
+        {
+            "iconUri": "img/icon_video_64.png",
+            "matUri": "https://www.dropbox.com/s/1custoddk2b1pw2/2011-case-icutter.wmv?dl=0",
+            "caption": "Video (24.8MB)"
+        },
+        
+        {
+            "iconUri": "img/icon_ppt_64.png",
+            "matUri": "https://www.dropbox.com/s/vrdh1acffgh8f27/2011-case-icutter.ppt?dl=0",
+            "caption": "Slides (5.1MB)"
+        }
+    ]
+    
+},
+{   
+    "title": "Paint Mesh Cutting",
+    "authors": [
+    
+      {
+          "fullName": "Lubin Fan",
+          "url": "https://sites.google.com/site/lubinfan/home",
+          "afflID": [0]
+      },  
+      {
+          "fullName": "Ligang Liu",
+          "url": "http://staff.ustc.edu.cn/~lgliu/",
+          "afflID": [0]
+      },  
+      {
+          "fullName": "Kun Liu",
+          "url": "http://kwunlyou.com/",
+          "afflID": [0]
+     }
+    ],
+    "affiliations": [
+        {
+            "name": "Zhejiang University",
+            "url": "http://www.zju.edu.cn/english/"
+        }
+        
+    ],
+    "event": "Computer Graphics Forum (Proc. of Eurographics), 2011",
+    "abstract":"We present a novel progressive painting-based mesh cut out tool, called Paint Mesh Cutting, for interactive mesh segmentation. Different from the previous user interfaces, the user only needs to draw a single stroke on the foreground region and then obtains the desired cutting part at an interactive rate. Moreover, the user progressively paints the region of interest using a brush and has the instant feedback on cutting results as he/she drags the mouse. This is achieved by efficient local graph-cut based optimizations based on the Gaussian mixture models (GMM) on the shape diameter function (SDF) metric of the shape. We demonstrate a number of various examples to illustrate the flexibility and applicability of our system and present a user study that supports the advantages of our user interface.",
+    "contents": [{
+      "name": "",
+      "images": [{
+        "uri": "img/2011-eg-paint mesh cutting-teaser.png",
+        "caption": "Illustrations of Paint Mesh Cutting. The user paints the region of interest with a single brush (in blue) on a mesh surface and then obtains the cutting part (in orange). Our system can provide the user instant feedback of the cutting results during mouse dragging (from left to right).Note that we only show 3 snapshots of the continuously sampled point interaction here."
+      }]
+    }, 
+    {
+      "name": "Results",
+      "images": [{
+          "uri": "img/2011-eg-paint mesh cutting-parts.png",
+          "caption": "A complete segmentation example of using our paint brush tool."
+       },
+       {
+          "uri": "img/2011-eg-paint mesh cutting-patch.png",
+          "caption": "An example of progressive patch-based cutting. Two foreground brushes are used."
+        }
+      ]
+    }
+  ],
+    "videos": [{
+    "uri": "http://vali.cp31.ott.cibntv.net/697554E0D83377163E1422E5F/03001101005C84DE68F66C931566009F775061-B6ED-4A89-A7BC-71E6103A1C33.mp4?ccode=050F&duration=180&expire=18000&psid=a99e3776454dd887e415d09cb99832ee&ups_client_netip=2d4f6348&ups_ts=1554863088&ups_userid=&utid=9iKrFFY7mWACAXLX%2BiTRtlSA&vid=XNDA5MjM2MjIyOA%3D%3D&vkey=Ae7a1862e30a5c1029994c6a09bfdde35&sp=",
+    "caption": ""
+    }
+    
+     ],
+    "acknowlegement":"We thank all the reviewers for valuable feedback. We are thankful to Jie Xu for video narration. This work is supported by the National Natural Science Foundation of China (61070071) and the 973 National Key Basic Research Foundation of China (No. 2009CB320801).",
+    "bibtex": {
+    "type": "@article",
+    "name": "Fan:2011:PaintMeshCutting",
+    "title": "Paint Mesh Cutting",
+    "author": "Lubin Fan and Ligang Liu and Kun Liu",
+    "journel": "Computer Graphic Forum (Proc. of Eurographics 2011)",
+    "volume": "30",
+    "number": "2",
+    "pages": "603-611",
+    "year": "2011"
+  },
+    "materials": [
+        {
+            "iconUri": "img/icon_pdf_64.png",
+            "matUri": "https://www.dropbox.com/s/aau5e1rak0o7l5m/2011-eg-paint%20mesh%20cutting.pdf?dl=0",
+            "caption": "Paper (4.0MB)"
+        },
+        {
+            "iconUri": "img/icon_video_64.png",
+            "matUri": "https://www.dropbox.com/s/du18lnbrky6x0h7/2011-eg-paint%20mesh%20cutting.mov?dl=0",
+            "caption": "Video (23.7MB)"
+        },
+        
+        {
+            "iconUri": "img/icon_ppt_64.png",
+            "matUri": "https://www.dropbox.com/s/1ug7ipfc6bdvmqe/2011-eg-paint%20mesh%20cutting.pptx?dl=0",
+            "caption": "Slides (34.0MB)"
+        }
+    ]
+    
+},
+{   
+    "title": "A Comparative Evaluation of Forground/Background Skech-based Mesh Segmentation Algorithm",
+    "authors": [
+      
+      {
+          "fullName": "Min Meng",
+          "url": "/",
+          "afflID": [0]
+     },
+      {
+          "fullName": "Lubin Fan",
+          "url": "https://sites.google.com/site/lubinfan/home",
+          "afflID": [0]
+      },  
+      {
+          "fullName": "Ligang Liu",
+          "url": "http://staff.ustc.edu.cn/~lgliu/",
+          "afflID": [0]
+      }
+    ],
+    "affiliations": [
+        {
+            "name": "Zhejiang University",
+            "url": "http://www.zju.edu.cn/english/"
+        }
+        
+    ],
+    "event": "Shape Modeling International 2011",
+    "abstract":"This paper presents an extensive comparative evaluation of five popular foreground/background sketch-based interactive mesh segmentation algorithms, addressing the quantitative assessment of the accuracy, efficiency, and stability of each algorithm. To facilitate the comparison, we have developed a complete framework with an intuitive and simple sketch-based interface to enable interactive mesh segmentation by marking strokes to specify the foreground and background with the mouse buttons, allowing us to quantify the algorithms in a unified manner. The evaluation has been performed via extensive user experiments in which each participant was assigned to segment models with the evaluated algorithms and the corresponding update of each segmentation was recorded as a new refinement when additional interactions were added. We then collected the segmentations from participants and evaluated them against the ground truth corpus constructed from the Princeton segmentation database. To investigate how well the interactive segmentations match the ground-truth, five metrics were used to measure the boundary and region accuracy of segmentations. By studying the experimental results, we have analyzed the performance of the evaluated algorithms and provided valuable insights into their characteristics.",
+    "contents": [{
+      "name": "",
+      "images": [{
+        "uri": "img/2011-smi-seg evaluation-teaser.png",
+        "caption": "Ilustration of foreground/background sketch-based interactive mesh segmentation. Given a bunny model (a), the user marks a blue stroke on the area of the bunny’s head (foreground) and a red stroke on the area of the bunny’s body (background) and obtains a segmentation result in (b). The user then specifies an additional red stroke on the area of the bunny’s body and the algorithm updates the segmentation using the new information, as shown in (c)."
+      }]
+    }, 
+    {
+      "name": "Results",
+      "images": [{
+          "uri": "img/2011-smi-seg evaluation-ui.png",
+          "caption": "A screenshot of our interactive segmentation system.(a)The interactive segmentation system in evaluation mode.(b)Task panel for evaluation.(c)Timer for restricting users to a maximum of 5 min per task. (For interpretation of the references to color in this figure legend, the reader is referred to the article.)"
+       },
+       {
+          "uri": "img/2011-smi-seg evaluation-results.png",
+          "caption": "Comparison of interactive segmentation algorithms by over all average boundary accuracy and region accuracy.(a)Average boundary accuracy; (b) average region accuracy."
+        }
+      ]
+    }
+  ],
+    "videos": [{
+    "uri": "http://vali.cp31.ott.cibntv.net/697554E0D83377163E1422E5F/03001101005C84DE68F66C931566009F775061-B6ED-4A89-A7BC-71E6103A1C33.mp4?ccode=050F&duration=180&expire=18000&psid=a99e3776454dd887e415d09cb99832ee&ups_client_netip=2d4f6348&ups_ts=1554863088&ups_userid=&utid=9iKrFFY7mWACAXLX%2BiTRtlSA&vid=XNDA5MjM2MjIyOA%3D%3D&vkey=Ae7a1862e30a5c1029994c6a09bfdde35&sp=",
+    "caption": ""
+    }
+    
+     ],
+    "acknowlegement":"This work is supported by the National Natural Science Foundation of China (61070071), the 973 National Key Basic Research Foundation of China (2009CB320801), and the Fundamental Research Funds for the Central Universities (2010QNA3039).",
+    "bibtex": {
+    "type": "@article",
+    "name": "Meng:2011:SegEvaluation",
+    "title": "A Comparative Evaluation of Foreground/Background Sketch-based Mesh Segmentation Algorithms",
+    "author": "Min Meng and Lubin Fan and Ligang Liu",
+    "journel": "omputers & Graphics (Proc. of Shape Modeling International 2011)",
+    "volume": "35",
+    "number": "3",
+    "pages": "650-660",
+    "year": "2011"
+  },
+    "materials": [
+        {
+            "iconUri": "img/icon_pdf_64.png",
+            "matUri": "https://www.dropbox.com/s/ypq9lb4o4hf1ow6/2011-smi-seg%20evaluation.pdf?dl=0",
+            "caption": "Paper (1.3MB)"
+        },
+        {
+            "iconUri": "img/icon_ppt_64.png",
+            "matUri": "https://www.dropbox.com/s/qyqkcgq7jeda9dx/2011-smi-seg%20evaluation.pptx?dl=0",
+            "caption": "Slides (6.6MB)"
+        }
+    ]
+    
+}
+
+
+]
