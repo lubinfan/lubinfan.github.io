@@ -546,14 +546,14 @@
 		"contents": [{
 				"name": "",
 				"images": [{
-					"uri": "images/publications/2012-coseg/teaser.png",
+					"uri": "images/publications/2012-sgp-coseg/teaser.png",
 					"caption": "The co-segmentation result of the Candelabra set by our algorithm. Starting from the over-segmented patches of the shapes (left), our algorithm automatically obtains the consistent segmentations among these objects by grouping the patches using subspace clustering in multiple feature spaces. Corresponding parts are shown in the same colors (right)."
 				}]
 			},
 			{
 				"name": "Results",
 				"images": [{
-					"uri": "images/publications/2012-coseg/results.png",
+					"uri": "images/publications/2012-sgp-coseg/results.png",
 					"caption": " Co-segmentation results on all the models of 20 categories produced by our algorithm. 16 categories are from the PSB dataset [CGF09] (the first 4 rows) and 4 categories are from the dataset used in [SvKK 11] (the last row)."
 				}]
 			}
