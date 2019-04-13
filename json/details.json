@@ -1,4 +1,115 @@
-[{
+[
+    {
+		"title": "A Late Fusion CNN for Digital Matting",
+		"authors": [
+            {
+				"fullName": "Yunke Zhang",
+				"url": "",
+				"afflID": [0]
+			},
+			{
+				"fullName": "Lixue Gong",
+				"url": "",
+				"afflID": [0]
+			},
+            {
+				"fullName": "Lubin Fan",
+				"url": "/",
+				"afflID": [1]
+			},
+            {
+				"fullName": "Peiran Ren",
+				"url": "",
+				"afflID": [1]
+			},
+            {
+				"fullName": "Qixing Huang",
+				"url": "http://www.cs.utexas.edu/~huangqx/",
+				"afflID": [2]
+			},
+			{
+				"fullName": "Hujun Bao",
+				"url": "http://www.cad.zju.edu.cn/home/bao/",
+				"afflID": [0]
+			},
+			{
+				"fullName": "Weiwei Xu",
+				"url": "http://www.cad.zju.edu.cn/home/weiweixu/weiweixu_en.htm",
+				"afflID": [0]
+			}
+		],
+		"affiliations": [
+            {
+				"name": "Zhejiang University",
+				"url": "http://www.zju.edu.cn/"
+			},
+            {
+				"name": "Alibaba Group",
+				"url": "https://www.alibabagroup.com/en/global/home"
+			},
+			{
+				"name": "University of Texas at Austin",
+				"url": "https://www.utexas.edu/"
+			}
+		],
+		"event": "CVPR 2019",
+		"abstract": "This paper studies the structure of a deep convolutional neural network to predict the foreground alpha matte by taking a single RGB image as input. Our network is fully convolutional with two decoder branches for the foreground and background classification respectively. Then a fusion branch is used to integrate the two classification results which gives rise to alpha values as the soft segmentation result. This design provides more degrees of freedom than a single decoder branch for the network to obtain better alpha values during training. The network can implicitly produce trimaps without user interaction, which is easy to use for novices without expertise in digital matting. Experimental results demonstrate that our network can achieve high-quality alpha mattes for various types of objects and outperform the state-of-the-art CNN-based image matting methods on the human image matting task.",
+		"contents": [{
+				"name": "",
+				"images": [{
+					"uri": "images/publications/2019-cvpr-matting/teaser.png",
+					"caption": "Two example matting results of our late fusion CNN that does not need trimaps as input. Left: two images collected from internet outside of our training dataset. Middle: the alpha mattes predicted by our network. Right: the composition results."
+				}]
+			},
+			{
+				"name": "Network Architecture",
+				"images": [{
+					"uri": "images/publications/2019-cvpr-matting/network.png",
+					"caption": "A high-level visualization of our network architecture. The segmentation network consists of one encoder and two decoders. The fusion network is a fully convolutional network without downsampling. The final alpha matte is a linear blending using the outputs of two networks. The number below the block in the fusion network denotes the number of output channels of different convolution layers."
+				}]
+			},
+			{
+				"name": "Results",
+				"images": [{
+						"uri": "images/publications/2019-cvpr-matting/results.png",
+						"caption": "Internet image matting results."
+					},
+					{
+						"uri": "images/publications/2019-cvpr-matting/comparison.png",
+						"caption": "The visual comparisons on human image matting testing dataset. The segments in SSS [2] are hand-picked."
+					}
+				]
+			}
+		],
+		"videos": [{
+			"uri": "http://vali.cp31.ott.cibntv.net/697554E0D83377163E1422E5F/03001101005C84DE68F66C931566009F775061-B6ED-4A89-A7BC-71E6103A1C33.mp4?ccode=050F&duration=180&expire=18000&psid=a99e3776454dd887e415d09cb99832ee&ups_client_netip=2d4f6348&ups_ts=1554863088&ups_userid=&utid=9iKrFFY7mWACAXLX%2BiTRtlSA&vid=XNDA5MjM2MjIyOA%3D%3D&vkey=Ae7a1862e30a5c1029994c6a09bfdde35&sp=",
+			"caption": ""
+		}],
+		"acknowlegement": "We would like to thank the anonymous reviewers for their constructive comments. Weiwei Xu is partially supported by NSFC (No. 61732016) and Zhejiang Lab. Qixing Huang would like to thank for the gift from snap research. Weiwei Xu and Hujun Bao are also supported by the Fundamental Research Funds for the Central Universities.",
+		"bibtex": {
+			"type": "@article",
+			"name": "Zhang:2019:Matting",
+			"title": "A Late Fusion CNN for Digital Matting",
+			"author": "Yunke Zhang and Lixue Gong and Lubin Fan and Peiran Ren and Qixing Huang and Hujun Bao and Weiwei Xu",
+			"journel": "CVPR",
+			"volume": "",
+			"number": "",
+			"pages": "",
+			"year": "2019"
+		},
+		"materials": [{
+				"iconUri": "images/icons/pdf_wh64.png",
+				"matUri": "",
+				"caption": "Paper"
+			},
+			{
+				"iconUri": "images/icons/pdf_wh64.png",
+				"matUri": "",
+				"caption": "Additional Materials"
+			}
+		]
+	},
+	{
 		"title": "MIQP-based Layout Design for Building Interiors",
 		"authors": [{
 				"fullName": "Wenming Wu",
@@ -80,7 +191,7 @@
 			"year": "2018"
 		},
 		"materials": [{
-				"iconUri": "images/icons/pdf_64.png",
+				"iconUri": "images/icons/pdf_wh64.png",
 				"matUri": "https://www.dropbox.com/s/weqa48qfyaouc76/2016-bldg%20model.pdf?dl=0",
 				"caption": "Paper (2.18MB)"
 			},
@@ -159,7 +270,7 @@
 			"year": "2016"
 		},
 		"materials": [{
-				"iconUri": "images/icons/pdf_64.png",
+				"iconUri": "images/icons/pdf_wh64.png",
 				"matUri": "https://www.dropbox.com/s/weqa48qfyaouc76/2016-bldg%20model.pdf?dl=0",
 				"caption": "Paper (2.18MB)"
 			},
