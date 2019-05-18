@@ -57,7 +57,7 @@
 		"contents": [{
 				"name": "",
 				"images": [{
-					"style":"Figure 1",
+					"type":"Figure 1",
 					"uri": "images/publications/2019-cvpr-matting/teaser.png",
 					"caption": "Two example matting results of our late fusion CNN that does not need trimaps as input. Left: two images collected from internet outside of our training dataset. Middle: the alpha mattes predicted by our network. Right: the composition results."
 				}]
