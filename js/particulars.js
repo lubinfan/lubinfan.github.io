@@ -46,7 +46,7 @@ function initialization (data) {
                
             
           cycle +='<div style="text-align: center;"><img src="'+data[idSerial].contents[i].images[k].uri+'" class="particulars-img" /></div>'
-			          +'<div style="text-align: center;"><p class="particulars-font"><font class="particulars-bold">'+'<style>'+data[idSerial].contents[i].images[k].Figure+': +</font><span>'+data[idSerial].contents[i].images[k].caption+'</span></p></div>'
+			          +'<div style="text-align: center;"><p class="particulars-font"><font class="particulars-bold">'+data[idSerial].contents[i].images[k].Figure+': +</font><span>'+data[idSerial].contents[i].images[k].caption+'</span></p></div>'
 			          
              }
     
