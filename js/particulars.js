@@ -33,7 +33,7 @@ function initialization (data) {
 	
 	  for (var i=0;i<data[idSerial].contents[0].images.length;i++) { //第一个内容区域 	
 	  	var item='<div style="text-align: center;"><img src="'+data[idSerial].contents[0].images[i].uri+'" class="particulars-img image1" />'
-	  	        +'</div><div style="height: 18px;text-align: center;"></div><p class="particulars-font"><font class="particulars-bold">'+data[idSerial].contents[0].images[i].Figure+': </font>'
+	  	        +'</div><div style="height: 18px;"></div><p class="particulars-font"><font class="particulars-bold">'+data[idSerial].contents[0].images[i].Figure+': </font>'
 	           	+'<span class="article1">'+data[idSerial].contents[0].images[i].caption+'</span></p>'
 	    $(".theFirst").append(item)
 	  }
@@ -46,7 +46,7 @@ function initialization (data) {
                
             
           cycle +='<div style="text-align: center;"><img src="'+data[idSerial].contents[i].images[k].uri+'" class="particulars-img" /></div>'
-			          +'<div style="text-align: center;"><p class="particulars-font"><font class="particulars-bold">'+data[idSerial].contents[i].images[k].Figure+': +</font><span>'+data[idSerial].contents[i].images[k].caption+'</span></p></div>'
+			          +'<p class="particulars-font"><font class="particulars-bold">'+'<style>'+data[idSerial].contents[i].images[k].Figure+': </font><span>'+data[idSerial].contents[i].images[k].caption+'</span></p>'
 			          
              }
     
@@ -112,7 +112,7 @@ function initialization (data) {
     
     for (var k=0;k<data[idSerial].videos[i].caption.length;k++){  
     	
-    	cycles +='<span>[<a href="'+data[idSerial].videos[i].caption[k].uri+'" >'+data[idSerial].videos[i].caption[k].title+'</a>]</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'
+    	cycles +='<span>[<a href="'+data[idSerial].videos[i].caption[k].uri+'" >'+data[idSerial].videos[i].caption[k].title+'</a>]</span>&nbsp;&nbsp;'
     }
    	 itmelist +=' <div class="particulars-video"> <img src="'+data[idSerial].videos[i].imageUri+'" class="video-js" /><div class="particulars-video-a">'+cycles+'</div></div>'
              
