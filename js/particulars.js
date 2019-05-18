@@ -15,6 +15,7 @@ function initialization (data) {
 	var aff=[];
 	var Third;
 	var itemNode='';
+	var itmelist='';
 	var numbers=1;
 	$(".particulars-title").text(data[idSerial].title)
 	$(".particulars-year").text(data[idSerial].event)
@@ -32,8 +33,8 @@ function initialization (data) {
 	
 	  for (var i=0;i<data[idSerial].contents[0].images.length;i++) { //第一个内容区域 	
 	  	var item='<div style="text-align: center;"><img src="'+data[idSerial].contents[0].images[i].uri+'" class="particulars-img image1" />'
-	  	        +'</div><div style="height: 18px;"></div><p class="particulars-font"><font class="particulars-bold">Figure '+(i+1)+':</font>'
-	           	+'<span class="article1">"'+data[idSerial].contents[0].images[i].caption+'"</span></p>'
+	  	        +'</div><div style="height: 18px;"></div><p class="particulars-font"><font class="particulars-bold">'+data[idSerial].contents[0].images[i].Figure+':</font>'
+	           	+'<span class="article1">'+data[idSerial].contents[0].images[i].caption+'</span></p>'
 	    $(".theFirst").append(item)
 	  }
 	  
@@ -42,10 +43,10 @@ function initialization (data) {
 	  for (var i=1;i<data[idSerial].contents.length;i++) { //第二个内容区域 	
          var cycle=''
              for (var k=0;k<data[idSerial].contents[i].images.length;k++){    	
-                 numbers++
+               
             
           cycle +='<div style="text-align: center;"><img src="'+data[idSerial].contents[i].images[k].uri+'" class="particulars-img" /></div>'
-			          +'<p class="particulars-font"><font class="particulars-bold">Figure '+numbers+':</font><span>'+data[idSerial].contents[i].images[k].caption+'</span></p>'
+			          +'<p class="particulars-font"><font class="particulars-bold">'+data[idSerial].contents[i].images[k].Figure+':</font><span>'+data[idSerial].contents[i].images[k].caption+'</span></p>'
 			          
              }
     
@@ -93,7 +94,7 @@ function initialization (data) {
 	   
 	     
 		var items='<a style="position: relative;" href="'+data[idSerial].authors[i].url+'" >'+data[idSerial].authors[i].fullName+''
-		          +'<i class="artifont">'+num+'</i></a> &nbsp;&nbsp;'
+		          +'<i class="artifont">'+num+'</i></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'
 		
 		$(".particulars-detail").append(items)
 	  }
@@ -105,14 +106,19 @@ function initialization (data) {
 			
 			$(".particulars-foot").append(item)
 		}
-		
-   for (var i=0;i<data[idSerial].videos.length;i++) {//视频循环
-    var id=i+'my-video'
-   	var itme=' <div class="particulars-video"><video id="'+id+'" class="video-js vjs-big-play-centered" controls preload="auto" width="880" height="480"   data-setup="{}">'
-             +'<source src="'+data[idSerial].videos[i].uri+'" id="pay-video" type="video/mp4"></video></div>'
-             $(".particulars-video-cont").append(itme)
+   
+   for (var i=0;i<data[idSerial].videos.length;i++) {//图片循环
+   	    var cycles=''
+    
+    for (var k=0;k<data[idSerial].videos[i].caption.length;k++){  
+    	
+    	cycles +='<span>[<a href="'+data[idSerial].videos[i].caption[k].uri+'" >'+data[idSerial].videos[i].caption[k].title+'</a>]</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'
+    }
+   	 itmelist +=' <div class="particulars-video"> <img src="'+data[idSerial].videos[i].imggeUri+'" class="video-js" /><div class="particulars-video-a">'+cycles+'</div></div>'
+             
 
    }
-
+   
+ $(".particulars-video-cont").append(itmelist)
 	
 }
