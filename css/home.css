@@ -102,6 +102,8 @@ a {
 .verbalContent {
 	font-family: arial, sans-serif;
 	font-size: 17px;
+	max-height：100%;
+	-webkit-text-size-adjust: none;
 }
 
 .footer {
@@ -110,6 +112,13 @@ a {
 	padding-bottom: 15px;
 	color: rgba(0, 0, 0, .7);
 	font-size: 14px;
+	text-align: center;
+	width: 100%;
+}
+
+.footer img {
+	width: 30px;
+	height: 30px;
 }
 
 
@@ -146,6 +155,7 @@ a {
 .list-words {
 	margin-left: 20px;
 	color: #444444;
+	width: 480px;
 }
 
 .list-content:after {
@@ -167,6 +177,8 @@ a {
 .footer-cont {
 	width: 900px;
 	margin: 0 auto;
+	max-height：100%;
+	-webkit-text-size-adjust: none;
 }
 
 .footer-title {
@@ -217,6 +229,8 @@ a {
 
 .resume-ul li {
 	margin-left: 40px;
+	max-height：100%;
+	-webkit-text-size-adjust: none;
 }
 
 .resume-bottom {
@@ -310,17 +324,20 @@ a {
 	text-align: center;
 	list-style: none;
 	font-size: 14px;
+	height: 25px;
+	line-height: 25px;
 }
 
 .artifont {
 	font-style: normal;
 	position: absolute;
-	right: -9px;
+	right: -6px;
 	color: grey;
 	top: -16px;
 	font-size: 12px;
 }
-.artifont1{
+
+.artifont1 {
 	font-style: normal;
 	position: absolute;
 	left: -7px;
@@ -328,32 +345,103 @@ a {
 	top: -6px;
 	font-size: 12px;
 }
-.particulars-foot{
+
+.particulars-foot {
 	width: 750px;
-	
 }
-.particulars-foot li{
+
+.particulars-foot li {
 	width: 102px;
 	list-style: none;
 	float: left;
 	padding-top: 30px;
 	text-align: center;
 }
+
 .particulars-foot:after {
 	content: " ";
 	display: block;
 	height: 0;
 	clear: both;
 }
+
 .layout-bottom:after {
 	content: " ";
 	display: block;
 	height: 0;
 	clear: both;
 }
-.particulars-foot li p a{text-align: center;overflow:hidden;margin-top: 10px;font-size: 13px;width: 102px;display: inline-block;}
-.bibtex-ul li{list-style: none;}
-.bibtex-ul{margin-left: 25px; font-size: 14px;color: grey;}
-.bibtex-li{text-indent: 38px;}
-.video-js{width: 880px;height: 400px;}
-.resume-color{color: grey;}
+
+.particulars-foot li p a {
+	text-align: center;
+	overflow: hidden;
+	margin-top: 10px;
+	font-size: 13px;
+	width: 102px;
+	display: inline-block;
+}
+
+.bibtex-ul li {
+	list-style: none;
+}
+
+.bibtex-ul {
+	margin-left: 25px;
+	font-size: 14px;
+	color: grey;
+}
+
+.bibtex-li {
+	text-indent: 38px;
+}
+
+.video-js {
+	width: 880px;
+	height: 400px;
+}
+
+.resume-color {
+	color: grey;
+}
+
+.bibtex-span {
+	width: 100px;
+	display: inline-block;
+}
+
+.layout-left {
+	width: 400px;
+	float: left;
+}
+
+.layout-right {
+	float: left;
+}
+
+.layout-right img {
+	width: 120px;
+	height: 120px;
+	margin-left: 0px;
+}
+
+.layout-DingTalk {
+	width: 120px;
+	margin-left: 20px;
+	float: left;
+}
+
+.layout-center {
+	text-align: center;
+	height: 30px;
+	line-height: 30px;
+}
+
+.particulars-video-a {
+	text-align: center;
+	font-size: 14px;
+	margin-top: 20px;
+}
+
+.particulars-video-a a {
+	color: #000000;
+}
