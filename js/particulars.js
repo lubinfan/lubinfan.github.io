@@ -114,7 +114,7 @@ function initialization (data) {
     	
     	cycles +='<span>[<a href="'+data[idSerial].videos[i].caption[k].uri+'" >'+data[idSerial].videos[i].caption[k].title+'</a>]</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;'
     }
-   	 itmelist +=' <div class="particulars-video"> <img src="'+data[idSerial].videos[i].imggeUri+'" class="video-js" /><div class="particulars-video-a">'+cycles+'</div></div>'
+   	 itmelist +=' <div class="particulars-video"> <img src="'+data[idSerial].videos[i].imageUri+'" class="video-js" /><div class="particulars-video-a">'+cycles+'</div></div>'
              
 
    }
