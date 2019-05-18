@@ -114,7 +114,7 @@
 		},
 		"materials": [{
 				"iconUri": "images/icons/pdf_wh64.png",
-				"matUri": "",
+				"matUri": "https://lbfan.oss-cn-hangzhou.aliyuncs.com/personal_webpage/publications/2019-cvpr-matting.pdf",
 				"caption": "Paper"
 			},
 			{
@@ -223,18 +223,18 @@
 		},
 		"materials": [{
 				"iconUri": "images/icons/pdf_wh64.png",
-				"matUri": "https://www.dropbox.com/s/weqa48qfyaouc76/2016-bldg%20model.pdf?dl=0",
-				"caption": "Paper (2.18MB)"
+				"matUri": "https://lbfan.oss-cn-hangzhou.aliyuncs.com/personal_webpage/publications/2018-eg-iplayout.hres.pdf",
+				"caption": "Paper (108.1MB)"
 			},
 			{
 				"iconUri": "images/icons/pdf_wh64.png",
-				"matUri": "https://www.dropbox.com/s/sp0x8ifvmmo1vjs/2016-bldg%20model-add.pdf?dl=0",
-				"caption": "Additional Materials (1.71MB)"
+				"matUri": "https://lbfan.oss-cn-hangzhou.aliyuncs.com/personal_webpage/publications/2018-eg-iplayout.suppl.pdf",
+				"caption": "Additional Materials (3.37MB)"
 			},
 			{
 				"iconUri": "images/icons/video_wh64.png",
-				"matUri": "https://www.dropbox.com/s/9kvhdjjonlao61q/2016-bldg%20model-video_lrs.mp4?dl=0",
-				"caption": "Video  (39.5MB)"
+				"matUri": "",
+				"caption": "Video"
 			}
 		]
 	},
@@ -317,27 +317,27 @@
 		},
 		"materials": [{
 				"iconUri": "images/icons/pdf_wh64.png",
-				"matUri": "https://www.dropbox.com/s/weqa48qfyaouc76/2016-bldg%20model.pdf?dl=0",
+				"matUri": "https://lbfan.oss-cn-hangzhou.aliyuncs.com/personal_webpage/publications/2016-tog-bldg_model.pdf",
 				"caption": "Paper (2.18MB)"
 			},
 			{
 				"iconUri": "images/icons/pdf_wh64.png",
-				"matUri": "https://www.dropbox.com/s/sp0x8ifvmmo1vjs/2016-bldg%20model-add.pdf?dl=0",
+				"matUri": "https://lbfan.oss-cn-hangzhou.aliyuncs.com/personal_webpage/publications/2016-tog-bldg_model.suppl.pdf",
 				"caption": "Additional Materials (1.71MB)"
 			},
 			{
 				"iconUri": "images/icons/zip_wh64.png",
-				"matUri": "https://www.dropbox.com/s/mulhlx4opfca1yq/2016-bldg%20model-data.zip?dl=0",
+				"matUri": "https://lbfan.oss-cn-hangzhou.aliyuncs.com/personal_webpage/publications/2016-tog-bldg_model.data.pdf",
 				"caption": "Dataset (188MB)"
 			},
 			{
 				"iconUri": "images/icons/video_wh64.png",
-				"matUri": "https://www.dropbox.com/s/9kvhdjjonlao61q/2016-bldg%20model-video_lrs.mp4?dl=0",
+				"matUri": "https://lbfan.oss-cn-hangzhou.aliyuncs.com/personal_webpage/publications/2016-tog-bldg_model.mp4",
 				"caption": "Video  (39.5MB)"
 			},
 			{
 				"iconUri": "images/icons/ppt_wh64.png",
-				"matUri": "https://www.dropbox.com/s/hfdb2rqaikqqnp2/2016-bldg%20model-slides.pdf?dl=0",
+				"matUri": "https://lbfan.oss-cn-hangzhou.aliyuncs.com/personal_webpage/publications/2016-tog-bldg_model.slides.pdf",
 				"caption": "Slides (5.58MB)"
 			}
 		]
@@ -440,37 +440,37 @@
 		},
 		"materials": [{
 				"iconUri": "images/icons/pdf_wh64.png",
-				"matUri": "https://www.dropbox.com/s/amw1dxphvvr8lli/2014-facade%20completion-highres.pdf?dl=0",
+				"matUri": "https://lbfan.oss-cn-hangzhou.aliyuncs.com/personal_webpage/publications/2014-sga-facade_model.hres.pdf",
 				"caption": "Paper (61.9MB)"
 			},
 			{
 				"iconUri": "images/icons/pdf_wh64.png",
-				"matUri": "https://www.dropbox.com/s/sbkkcbs8m470x5b/2014-facade%20completion-lowres.pdf?dl=0",
+				"matUri": "https://lbfan.oss-cn-hangzhou.aliyuncs.com/personal_webpage/publications/2014-sga-facade_model.lres.pdf",
 				"caption": "Paper (5.4MB)"
 			},
 			{
 				"iconUri": "images/icons/pdf_wh64.png",
-				"matUri": "https://www.dropbox.com/s/y62obpz44pj8iz3/2014-facade%20completion-add.pdf?dl=0",
+				"matUri": "https://lbfan.oss-cn-hangzhou.aliyuncs.com/personal_webpage/publications/2014-sga-facade_model.suppl.pdf",
 				"caption": "Additional Materials (5.8MB)"
 			},
 			{
 				"iconUri": "images/icons/zip_wh64.png",
-				"matUri": "https://www.dropbox.com/s/8j3dar9g2rkb0hi/2014-facade%20completion-data.zip?dl=0",
+				"matUri": "https://lbfan.oss-cn-hangzhou.aliyuncs.com/personal_webpage/publications/2014-sga-facade_model.data.zip",
 				"caption": "Dataset (173.0MB)"
 			},
 			{
 				"iconUri": "images/icons/video_wh64.png",
-				"matUri": "https://www.dropbox.com/s/ey9hn6cxwb51fpb/2014-facade%20completion-video1.mp4?dl=0",
+				"matUri": "https://lbfan.oss-cn-hangzhou.aliyuncs.com/personal_webpage/publications/2014-sga-facade_model.video1.mp4",
 				"caption": "Video 1 (66.7MB)"
 			},
 			{
 				"iconUri": "images/icons/video_wh64.png",
-				"matUri": "https://www.dropbox.com/s/vfimib9gb2x67aj/2014-facade%20completion-video2.mp4?dl=0",
+				"matUri": "https://lbfan.oss-cn-hangzhou.aliyuncs.com/personal_webpage/publications/2014-sga-facade_model.video2.mp4",
 				"caption": "Video 2 (58.3MB)"
 			},
 			{
 				"iconUri": "images/icons/ppt_wh64.png",
-				"matUri": "https://www.dropbox.com/s/36wzq699v9rew5i/2014-facade%20completion.pptx?dl=0",
+				"matUri": "https://lbfan.oss-cn-hangzhou.aliyuncs.com/personal_webpage/publications/2014-sga-facade_model.slides.pdf",
 				"caption": "Slides (102MB)"
 			}
 		]
@@ -568,22 +568,22 @@
 		},
 		"materials": [{
 				"iconUri": "images/icons/pdf_wh64.png",
-				"matUri": "https://www.dropbox.com/s/j4oowcu2b4kvrne/2013-pg-modeling%20by%20drawing.pdf?dl=0",
+				"matUri": "https://lbfan.oss-cn-hangzhou.aliyuncs.com/personal_webpage/publications/2013-pg-sketch_modeling.pdf",
 				"caption": "Paper (5.0MB)"
 			},
 			{
 				"iconUri": "images/icons/zip_wh64.png",
-				"matUri": "https://www.dropbox.com/s/oupl7py06yqnyc5/2013-pg-modeling%20by%20drawing-supp.zip?dl=0",
+				"matUri": "https://lbfan.oss-cn-hangzhou.aliyuncs.com/personal_webpage/publications/2013-pg-sketch_modeling.suppl.pdf",
 				"caption": "Supplementary Materials (11.0MB)"
 			},
 			{
 				"iconUri": "images/icons/video_wh64.png",
-				"matUri": "https://www.dropbox.com/s/zz6ax2k00outbni/2013-pg-modeling%20by%20drawing.mov?dl=0",
+				"matUri": "https://lbfan.oss-cn-hangzhou.aliyuncs.com/personal_webpage/publications/2013-pg-sketch_modeling.mov",
 				"caption": "Video (29.8MB)"
 			},
 			{
 				"iconUri": "images/icons/ppt_wh64.png",
-				"matUri": "https://www.dropbox.com/s/panu36og6fr7l5u/2013-pg-modeling%20by%20drawing.pptx?dl=0",
+				"matUri": "https://lbfan.oss-cn-hangzhou.aliyuncs.com/personal_webpage/publications/2013-pg-sketch_modeling.slides.pdf",
 				"caption": "Slides (51.2MB)"
 			}
 		]
@@ -658,22 +658,22 @@
 		},
 		"materials": [{
 				"iconUri": "images/icons/pdf_wh64.png",
-				"matUri": "https://www.dropbox.com/s/lwo79232sls71et/2012-sgp-coseg.pdf?dl=0",
+				"matUri": "https://lbfan.oss-cn-hangzhou.aliyuncs.com/personal_webpage/publications/2012-sgp-coseg.pdf",
 				"caption": "Paper (1.3MB)"
 			}, {
 				"iconUri": "images/icons/pdf_wh64.png",
-				"matUri": "https://www.dropbox.com/s/ftzjmwor33qopnb/2012-sgp-coseg-supp.pdf?dl=0",
+				"matUri": "https://lbfan.oss-cn-hangzhou.aliyuncs.com/personal_webpage/publications/2012-sgp-coseg.suppl.pdf",
 				"caption": "Supplementary Material (0.2MB)"
 			},
 
 			{
 				"iconUri": "images/icons/video_wh64.png",
-				"matUri": "https://www.dropbox.com/s/wqx0wnic28k308x/2012-sgp-coseg.mov?dl=0",
+				"matUri": "https://lbfan.oss-cn-hangzhou.aliyuncs.com/personal_webpage/publications/2012-sgp-coseg.mov",
 				"caption": "Video (46.6MB)"
 			},
 			{
 				"iconUri": "images/icons/ppt_wh64.png",
-				"matUri": "https://www.dropbox.com/s/pnnvssz01b62n6p/2012-sgp-coseg.pptx?dl=0",
+				"matUri": "https://lbfan.oss-cn-hangzhou.aliyuncs.com/personal_webpage/publications/2012-sgp-coseg.slides.pdf",
 				"caption": "Slides (9.4MB)"
 			}
 		]
@@ -748,22 +748,22 @@
 		},
 		"materials": [{
 				"iconUri": "images/icons/pdf_wh64.png",
-				"matUri": "https://www.dropbox.com/s/zn4aaqjqo04dxwm/2012-gm-seg%20evaluation.pdf?dl=0",
+				"matUri": "https://lbfan.oss-cn-hangzhou.aliyuncs.com/personal_webpage/publications/2012-gm-eval_sketch_seg.pdf",
 				"caption": "Paper (1MB)"
 			}, {
 				"iconUri": "images/icons/pdf_wh64.png",
-				"matUri": "https://www.dropbox.com/s/kkloo7aiz0kauyc/2012-gm-seg%20evaluation-supp.pdf?dl=0",
+				"matUri": "https://lbfan.oss-cn-hangzhou.aliyuncs.com/personal_webpage/publications/2012-gm-eval_sketch_seg.suppl.pdf",
 				"caption": "Supplementary Materials (1MB)"
 			},
 
 			{
 				"iconUri": "images/icons/zip_wh64.png",
-				"matUri": "https://www.dropbox.com/s/9jv7rqi7z2tkkyo/2012-gm-seg%20evaluation-dataset.zip?dl=0",
+				"matUri": "https://lbfan.oss-cn-hangzhou.aliyuncs.com/personal_webpage/publications/2012-gm-eval_sketch_seg.data.zip",
 				"caption": "Dataset (60.3MB)"
 			},
 			{
 				"iconUri": "images/icons/video_wh64.png",
-				"matUri": "https://www.dropbox.com/s/wi3myp775w9rvi0/2012-gm-seg%20evaluation.mov?dl=0",
+				"matUri": "https://lbfan.oss-cn-hangzhou.aliyuncs.com/personal_webpage/publications/2012-gm-eval_sketch_seg.mov",
 				"caption": "Video (4.2MB)"
 			}
 		]
@@ -844,17 +844,17 @@
 		},
 		"materials": [{
 				"iconUri": "images/icons/pdf_wh64.png",
-				"matUri": "https://www.dropbox.com/s/bg8x87n6w5zizci/2011-casa-icutter.pdf?dl=0",
+				"matUri": "https://lbfan.oss-cn-hangzhou.aliyuncs.com/personal_webpage/publications/2011-casa-icutter.pdf",
 				"caption": "Paper"
 			},
 			{
 				"iconUri": "images/icons/video_wh64.png",
-				"matUri": "https://www.dropbox.com/s/1custoddk2b1pw2/2011-case-icutter.wmv?dl=0",
+				"matUri": "https://lbfan.oss-cn-hangzhou.aliyuncs.com/personal_webpage/publications/2011-casa-icutter.wmv",
 				"caption": "Video (24.8MB)"
 			},
 			{
 				"iconUri": "images/icons/ppt_wh64.png",
-				"matUri": "https://www.dropbox.com/s/vrdh1acffgh8f27/2011-case-icutter.ppt?dl=0",
+				"matUri": "https://lbfan.oss-cn-hangzhou.aliyuncs.com/personal_webpage/publications/2011-casa-icutter.slides.pdf",
 				"caption": "Slides (5.1MB)"
 			}
 		]
@@ -937,17 +937,17 @@
 		},
 		"materials": [{
 				"iconUri": "images/icons/pdf_wh64.png",
-				"matUri": "https://www.dropbox.com/s/aau5e1rak0o7l5m/2011-eg-paint%20mesh%20cutting.pdf?dl=0",
+				"matUri": "https://lbfan.oss-cn-hangzhou.aliyuncs.com/personal_webpage/publications/2011-eg-paint_mesh_cutting.pdf",
 				"caption": "Paper (4.0MB)"
 			},
 			{
 				"iconUri": "images/icons/video_wh64.png",
-				"matUri": "https://www.dropbox.com/s/du18lnbrky6x0h7/2011-eg-paint%20mesh%20cutting.mov?dl=0",
+				"matUri": "https://lbfan.oss-cn-hangzhou.aliyuncs.com/personal_webpage/publications/2011-eg-paint_mesh_cutting.mov",
 				"caption": "Video (23.7MB)"
 			},
 			{
 				"iconUri": "images/icons/ppt_wh64.png",
-				"matUri": "https://www.dropbox.com/s/1ug7ipfc6bdvmqe/2011-eg-paint%20mesh%20cutting.pptx?dl=0",
+				"matUri": "https://lbfan.oss-cn-hangzhou.aliyuncs.com/personal_webpage/publications/2011-eg-paint_mesh_cutting.slides.pdf",
 				"caption": "Slides (34.0MB)"
 			}
 		]
@@ -1030,12 +1030,12 @@
 		},
 		"materials": [{
 				"iconUri": "images/icons/pdf_wh64.png",
-				"matUri": "https://www.dropbox.com/s/ypq9lb4o4hf1ow6/2011-smi-seg%20evaluation.pdf?dl=0",
+				"matUri": "https://lbfan.oss-cn-hangzhou.aliyuncs.com/personal_webpage/publications/2011-smi-eval_fb_seg.pdf",
 				"caption": "Paper (1.3MB)"
 			},
 			{
 				"iconUri": "images/icons/ppt_wh64.png",
-				"matUri": "https://www.dropbox.com/s/qyqkcgq7jeda9dx/2011-smi-seg%20evaluation.pptx?dl=0",
+				"matUri": "https://lbfan.oss-cn-hangzhou.aliyuncs.com/personal_webpage/publications/2011-smi-eval_fb_seg.slides.pdf",
 				"caption": "Slides (6.6MB)"
 			}
 		]
