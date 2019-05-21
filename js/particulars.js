@@ -106,15 +106,21 @@ function initialization (data) {
 			
 			$(".particulars-foot").append(item)
 		}
-   
+		
+   if (data[idSerial].videos=='') {
+   	 
+   	  	$(".video-cont").hide()
+   	  	return
+   	  }
    for (var i=0;i<data[idSerial].videos.length;i++) {//图片循环
+  
    	    var cycles=''
     
     for (var k=0;k<data[idSerial].videos[i].caption.length;k++){  
     	
     	cycles +='<span>[<a href="'+data[idSerial].videos[i].caption[k].uri+'" >'+data[idSerial].videos[i].caption[k].title+'</a>]</span>&nbsp;&nbsp;'
     }
-   	 itmelist +=' <div class="particulars-video"> <img src="'+data[idSerial].videos[i].imageUri+'" class="video-js" /><div class="particulars-video-a">'+cycles+'</div></div>'
+   	 itmelist +=' <div class="particulars-video"> <div class="particularsVideo"><img src="'+data[idSerial].videos[i].imageUri+'" class="video-js" /></div><div class="particulars-video-a">'+cycles+'</div></div>'
              
 
    }

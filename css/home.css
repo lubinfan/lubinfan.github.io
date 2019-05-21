@@ -117,8 +117,8 @@ a {
 }
 
 .footer img {
-	width: 30px;
-	height: 30px;
+	width: 22px;
+	height: 22px;
 }
 
 
@@ -251,8 +251,7 @@ a {
 }
 
 .particulars-video {
-	width: 880px;
-	height: 480px;
+	
 	margin-top: 30px;
 }
 
@@ -395,10 +394,7 @@ a {
 	text-indent: 38px;
 }
 
-.video-js {
-	width: 880px;
-	height: 400px;
-}
+
 
 .resume-color {
 	color: grey;
@@ -416,6 +412,7 @@ a {
 
 .layout-right {
 	float: left;
+	margin-left: 30px;
 }
 
 .layout-right img {
@@ -445,3 +442,4 @@ a {
 .particulars-video-a a {
 	color: #000000;
 }
+.particularsVideo{max-width: 900px;text-align: center;}

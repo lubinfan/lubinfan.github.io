@@ -86,19 +86,7 @@
 			}
 		],
 		"videos": [
-		{
-			"imageUri":"",
-			"caption": [
-			{
-				"title":"Youku",
-				"uri":""
-			},
-			{
-				"title":"YouTube",
-				"uri":""
-			}
-			]
-		}
+		
 		],
 		"acknowlegement": "We would like to thank the anonymous reviewers for their constructive comments. Weiwei Xu is partially supported by NSFC (No. 61732016) and Zhejiang Lab. Qixing Huang would like to thank for the gift from snap research. Weiwei Xu and Hujun Bao are also supported by the Fundamental Research Funds for the Central Universities.",
 		"bibtex": {
