@@ -278,7 +278,7 @@
 		],
 		"videos": [
 		{
-			"imageUri":"",
+			"imageUri":"images/publications/2016-tog-bldg_model/video.png",
 			"caption": [
 			{
 				"title":"Youku",
@@ -286,7 +286,7 @@
 			},
 			{
 				"title":"YouTube",
-				"uri":""
+				"uri":"https://www.youtube.com/watch?v=ao0b28bk6cQ"
 			}
 			]
 		}
@@ -401,7 +401,7 @@
 		],
 		"videos": [
 		{
-			"imageUri":"",
+			"imageUri":"images/publications/2014-sga-facade_model/video.png",
 			"caption": [
 			{
 				"title":"Youku",
@@ -409,7 +409,7 @@
 			},
 			{
 				"title":"YouTube",
-				"uri":""
+				"uri":"https://www.youtube.com/watch?v=ISWwk82uP0A"
 			}
 			]
 		}
@@ -805,7 +805,7 @@
 		],
 		"videos": [
 		{
-			"imageUri":"",
+			"imageUri":"images/publications/2011-casa-icutter/video.png",
 			"caption": [
 			{
 				"title":"Youku",
@@ -813,7 +813,7 @@
 			},
 			{
 				"title":"YouTube",
-				"uri":""
+				"uri":"https://www.youtube.com/watch?v=L2H-FOxgzno"
 			}
 			]
 		}
@@ -898,7 +898,7 @@
 		],
 		"videos": [
 		{
-			"imageUri":"",
+			"imageUri":"images/publications/2011-eg-paint_mesh_cutting/video.png",
 			"caption": [
 			{
 				"title":"Youku",
@@ -906,7 +906,7 @@
 			},
 			{
 				"title":"YouTube",
-				"uri":""
+				"uri":"https://www.youtube.com/watch?v=GrLvbjXMGMw"
 			}
 			]
 		}
