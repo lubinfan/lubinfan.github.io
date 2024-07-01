@@ -103,7 +103,6 @@ a {
 	font-family: arial, sans-serif;
 	font-size: 16px;
 	line-height: 150%;
-	max-height: 100%;
 	-webkit-text-size-adjust: none;
 }
 
@@ -231,7 +230,6 @@ a {
 .resume-ul li {
 	margin-left: 40px;
 	line-height: 175%;
-	max-height：100%;
 	-webkit-text-size-adjust: none;
 }
 
